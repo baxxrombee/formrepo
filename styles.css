@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    margin: 150px auto;
+    width: 700px;
+    height: 420px;
+    background-color: #15c4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+	display: flex;
+    align-items: center;
+	flex-direction: column;
+	width: 300px;
+    height: 350px;
+    background-color: white;
+	border-radius: 70px 0 70px 0;
+}
+
+.login>p:first-child{
+	font-size: 20px;
+	color: #15c4ff;
+	font-style: normal;
+	margin: 30px 0 40px 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.Username{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 80%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.Password{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 80%;
+    padding: 10px;
+}
+
+.checkbox{
+	width: 80%;
+	margin: 18px 0 25px 0;
+}
+
+.checkbox input{
+	float:left;
+	margin-right: 5px;
+	margin-top: 3px;
+}
+
+.checkbox label{
+	display:inline-block;
+	font-size:16px;
+	color:#0b0b0b;	
+	font-family: sans-serif;
+	color: gray;
+}
+
+.btn{
+	height: 30px;
+	width: 80%;
+	border-radius: 16px;
+	background-color: #15c4ff;
+	border: none;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.btn:active{
+	background-color: #68defc;
+}
+
+.login>p:nth-of-type(2){
+	font-family: sans-serif;	
+	color: gray;
+}
+
+.login>p:nth-of-type(2)>a{
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #0dc8d9;
+}
